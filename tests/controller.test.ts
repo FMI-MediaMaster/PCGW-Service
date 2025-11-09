@@ -6,7 +6,7 @@ import app from '../src/app';
 const server = app as Express;
 
 describe('Controller', () => {
-    const endpoint: string = '/';
+    const endpoint: string = '';
     const validMap: object = {
         'Hollow Knight': 'Hollow Knight',
         'God Of War': 'God of War',

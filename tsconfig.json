@@ -20,6 +20,6 @@
       "@controllers/*": ["src/controllers/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/services/.ts", "src/controllers/.ts"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts"]
 }

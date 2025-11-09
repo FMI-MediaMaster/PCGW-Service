@@ -1,0 +1,19 @@
+meta {
+  name: Get Options
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/options?name=Soma
+  body: none
+  auth: inherit
+}
+
+params:query {
+  name: Soma
+}
+
+settings {
+  encodeUrl: true
+}

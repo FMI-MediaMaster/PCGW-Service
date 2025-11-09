@@ -1,10 +1,9 @@
-import userController from '@controllers/user';
 import { Router } from 'express';
-import { createRouter } from '@media-master/express-crud-router';
+import pcgwController from '@controllers/pcgw';
 
 const routes: Router = Router();
 
-routes.use('/users', createRouter(userController));
+routes.use('/:method', pcgwController.handler);
 
 export default routes;
 
