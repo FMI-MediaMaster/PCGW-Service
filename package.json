@@ -37,11 +37,13 @@
     "@media-master/http-errors": "^0.0.1",
     "@media-master/load-dotenv": "^0.0.1",
     "@media-master/metadata-service-tests": "^0.0.1",
+    "@types/jsdom": "^27.0.0",
     "chalk": "^5.6.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "helmet": "^8.1.0",
+    "jsdom": "^27.1.0",
     "node-fetch": "^3.3.2"
   }
 }
