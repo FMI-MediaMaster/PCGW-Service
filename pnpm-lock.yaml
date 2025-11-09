@@ -20,6 +20,9 @@ importers:
       '@media-master/load-dotenv':
         specifier: ^0.0.1
         version: 0.0.1
+      '@media-master/metadata-service-tests':
+        specifier: ^0.0.1
+        version: 0.0.1
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -370,6 +373,9 @@ packages:
 
   '@media-master/load-dotenv@0.0.1':
     resolution: {integrity: sha512-5LrokEVViuCoFBbYB4WaVsMuwoK/m/uGXFOCUqvgJZfQQuZRWUQoTHq+yiXtLTZzpmeiWwA0xFRTFa/Vx0/RPg==}
+
+  '@media-master/metadata-service-tests@0.0.1':
+    resolution: {integrity: sha512-Xqs5lOD0EtrGTT553KzBaCbJANixId4b3HnR0araWfZOvQa81nyAeiaqPKvlxd65BftVpa/LUWeQneLr4Wo3EQ==}
 
   '@noble/hashes@1.8.0':
     resolution: {integrity: sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==}
@@ -2182,6 +2188,8 @@ snapshots:
   '@media-master/load-dotenv@0.0.1':
     dependencies:
       dotenv: 17.2.3
+
+  '@media-master/metadata-service-tests@0.0.1': {}
 
   '@noble/hashes@1.8.0': {}
 
