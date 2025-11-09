@@ -1,0 +1,19 @@
+meta {
+  name: Get Info
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{url}}/info?id=
+  body: none
+  auth: inherit
+}
+
+params:query {
+  id: 
+}
+
+settings {
+  encodeUrl: true
+}

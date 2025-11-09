@@ -21,8 +21,13 @@ describe('Controller', () => {
         options: {
             name: { type: 'string' },
         },
+        info: {
+            link: { type: 'string' },
+            windows: { type: 'object' },
+            os_x: { type: 'object' },
+            linux: { type: 'object' },
+        },
     };
-
     runMetadataTests(
         server,
         endpoint,
